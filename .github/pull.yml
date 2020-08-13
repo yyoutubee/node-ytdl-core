@@ -1,0 +1,7 @@
+version: "1"
+rules:
+    -   base: master
+        upstream: fent:master
+        mergeMethod: rebase
+label: "pull-upstream"
+
